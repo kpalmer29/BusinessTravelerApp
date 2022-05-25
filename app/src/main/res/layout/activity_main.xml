@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout">
+
+
+        <TextView
+            android:id="@+id/displayPrompt"
+            android:layout_width="207dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/aladin"
+            android:text="@string/origin_prompt"
+            android:textColor="#272525"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RadioGroup
+        android:id="@+id/cityPicker"
+        android:layout_width="152dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/displayPrompt">
+
+        <RadioButton
+            android:id="@+id/radioIndia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/india" />
+
+        <RadioButton
+            android:id="@+id/radioKorea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/south_korea" />
+
+        <RadioButton
+            android:id="@+id/radioJapan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/japan" />
+
+        <RadioButton
+            android:id="@+id/radioBrazil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brazil" />
+
+        <RadioButton
+            android:id="@+id/radioChina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/china" />
+
+        <RadioButton
+            android:id="@+id/radioIreland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ireland" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonCitySelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/select"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/originGroup2"
+        android:layout_width="144dp"
+        android:layout_height="331dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/cityPicker"
+        app:layout_constraintTop_toBottomOf="@+id/displayPrompt">
+
+        <RadioButton
+            android:id="@+id/radioFrance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/france" />
+
+        <RadioButton
+            android:id="@+id/radioItaly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/italy" />
+
+        <RadioButton
+            android:id="@+id/radioSpain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spain" />
+
+        <RadioButton
+            android:id="@+id/radioGermany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/germany" />
+
+        <RadioButton
+            android:id="@+id/radioUK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UK" />
+
+        <RadioButton
+            android:id="@+id/radioUSA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usa" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

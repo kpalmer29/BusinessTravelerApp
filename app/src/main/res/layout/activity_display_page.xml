@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayPage">
+
+    <TextView
+        android:id="@+id/displayPrompt"
+        android:layout_width="229dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aladin"
+        android:textColor="#272525"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonExchange"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/exchange_rate"
+        android:textColor="#212121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHotels" />
+
+    <Button
+        android:id="@+id/buttonWeather"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/weather"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayPrompt" />
+
+    <Button
+        android:id="@+id/buttonHotels"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/hotels"
+        android:textColor="#212121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayPrompt" />
+
+    <Button
+        android:id="@+id/buttonFood"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/restaurants"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWeather" />
+
+    <Button
+        android:id="@+id/buttonSMS"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="81dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/sms"
+        android:textColor="#212121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonExchange" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#2199B6"
+        android:text="@string/main_screen"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFood" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

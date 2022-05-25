@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BusinessTravelerApp</string>
+    <string name="origin_prompt">Country of Origin</string>
+    <string name="usa">USA</string>
+    <string name="UK">United Kingdom</string>
+    <string name="france">France</string>
+    <string name="italy">Italy</string>
+    <string name="spain">Spain</string>
+    <string name="germany">Germany</string>
+    <string name="india">India</string>
+    <string name="south_korea">South Korea</string>
+    <string name="japan">Japan</string>
+    <string name="brazil">Brazil</string>
+    <string name="china">China</string>
+    <string name="ireland">Ireland</string>
+    <string name="select">Select</string>
+    <string name="destination_country">Destination Country</string>
+    <string name="destination_city">Destination City</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="button">Button</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="weather">Weather</string>
+    <string name="exchange_rate">Exchange Rate</string>
+    <string name="sms">SMS</string>
+    <string name="title_activity_web_view">webViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
